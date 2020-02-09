@@ -1,6 +1,6 @@
 # Svelte Arduino Color Picker
 
-![project](doc/project.jpg)
+![project](docs/project.jpg)
 
 ## Arduino Setup
 
