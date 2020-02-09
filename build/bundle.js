@@ -491,7 +491,6 @@ var app = (function () {
     	async function connect() {
     		const port = await navigator.serial.requestPort();
     		await port.open({ baudrate: 115200 });
-    		console.log(port.writable);
     		$$invalidate(8, writer = port.writable.getWriter());
     	}
 
