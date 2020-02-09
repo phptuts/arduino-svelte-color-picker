@@ -4,6 +4,8 @@
 
 ## Arduino Setup
 
+![wiring](docs/rgb_led.svg)
+
 1. Red Wire goes to pin 11
 
 2. Green Wire goes to pin 10
@@ -69,7 +71,7 @@ String getValue(String data, char separator, int index)
 ```
 git clone https://github.com/phptuts/arduino-svelte-color-picker.git
 cd arduino-svelte-color-picker
-npm install 
+npm install
 npm run dev
 ```
 
@@ -82,5 +84,3 @@ npm run dev
 7. Change the color.
 
 ![website](/docs/website.png)
-
-
